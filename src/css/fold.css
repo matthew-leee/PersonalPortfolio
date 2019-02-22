@@ -1,0 +1,24 @@
+.fold{
+    width: inherit;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    position: fixed;
+    z-index: 9998;
+}
+
+.fold .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.fold .img img {
+    height: 70vh;
+    /* position: fixed; */
+    /* opacity: 0; */
+}

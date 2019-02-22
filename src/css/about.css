@@ -1,0 +1,92 @@
+.about {
+    width: inherit;
+    height: 100vh;
+    position: fixed;
+    z-index: 9997;
+    opacity: 0;
+}
+
+.about .content {
+    width: 80vw;
+    height: calc(100vh - 2vw);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2vw;
+    flex-direction: row;
+}
+
+#about2 {
+    margin-top: 3vw;
+}
+
+.intro {
+    width: 30vw;
+}
+
+.timeline {
+    width: 35vw;
+    position: relative;
+  }
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: calc(33%);
+    bottom: 0px;
+    width: 0.3vw;
+    background: #3c455c
+  }
+  .timeline:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+  }
+  .entry .title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: 1vw;
+    text-align: right;
+    position: relative;
+  }
+  .entry .title h3 {
+    margin: 0;
+    font-size: 1.8vw;
+  }
+  .entry .title p {
+    margin-top: 0.5vw;
+    font-size: 1.2vw;
+  }
+  .entry .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: 1vw;;
+  }
+  .entry .body p {
+    line-height: 1.4em;
+    font-size: 1.2vw
+  }
+  .entry .body p:first-child {
+    margin-top: 0;
+  }
+  .entry .body ul {
+    color: #aaa;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 1.2vw;
+  }
+  .entry .body ul li:before {
+    margin-right: .5em;
+  }
+
+  .entry .body ul li {
+      margin-top: 0.5vw;
+  }

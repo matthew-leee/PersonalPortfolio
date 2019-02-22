@@ -1,0 +1,30 @@
+@media only screen and (max-width: 768px) {
+    .footer {
+        display: flex;
+        padding-bottom: 10vh;
+        flex-direction: column;
+    }
+    .footer .social{
+        grid-area: none;
+        height: 20vh;
+    }
+    .social a {
+        margin: 5vw;
+        font-size: 17vw;
+    }
+    .footer .form{
+        grid-area: none;
+        height: 70vh;
+    }
+    .footer .form input{
+        width: 70vw;
+        height: 7vw;
+    }
+    .footer .form textarea {
+        width: 70vw;
+        height: 21vw;
+    }
+    .footer .form h4:not(:first-child) {
+        margin-top: 15vw;
+    }
+}

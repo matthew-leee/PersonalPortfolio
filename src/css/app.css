@@ -1,0 +1,42 @@
+.App {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr) 180px;
+    grid-template-areas: "a a a a a a a a a b";
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.9vw;
+    color: #351f39
+}
+
+.notNav {
+    grid-area: a;
+    width: calc(100vw - 196px);
+}
+
+.notNav .content {
+    direction: ltr;
+}
+
+.header {
+    height: 100vh;
+    width: inherit;
+    background-color: bisque;
+}
+
+.mainContainer {
+    height: 700vh;
+    min-height: 7500px;
+    width: inherit;
+    background-color: bisque;
+}
+
+.frame {
+    width: inherit;
+    height: 100vh;
+    position: fixed;
+    z-index: 999;
+    border-color: #3c455c;
+    border-style: solid;
+    border-width: 1vw;
+}
+
+

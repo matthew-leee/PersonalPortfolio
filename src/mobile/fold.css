@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+    .fold {
+        padding-bottom: 10vh;
+    }
+
+    .fold .img img {
+        width: 70vw;
+        height: auto;
+    }
+}

@@ -1,0 +1,27 @@
+.sideNav {
+    grid-area: b;
+    background-color: #A0c1b8;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.sideNav ul li {
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.sideNav ul li img {
+    width: 100px;
+    height: 100px;
+}
+
+.sideNav ul li p {
+    text-align: center;
+    font-size: 20px
+}
+
+.sideNav ul {
+    position: fixed
+}

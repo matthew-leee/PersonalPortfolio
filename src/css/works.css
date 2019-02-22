@@ -1,0 +1,196 @@
+.works {
+    width: inherit;
+    height: 100vh;
+    flex-direction: row;
+    position: fixed;
+    z-index: -1;
+    opacity: 0;
+    padding: 1vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.worksNav{
+    height: calc(100vh - 2vw);
+    width: 180px;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: stretch;
+}
+
+.worksInstruction {
+    height: calc(100vh - 2vw);
+    width: calc(100vw - 196px - 2vw);
+    position: absolute;
+    z-index: -1;
+    padding-right: 180px;
+    flex-direction: column
+}
+
+.worksInstruction h1 {
+    font-size: 80px
+}
+
+.worksInstruction h4 {
+    margin-top: 2.5vw;
+    font-size: 50px;
+}
+
+.worksContainer{
+    height: calc(100vh - 2vw);
+    position: absolute;
+    overflow: hidden;
+}
+
+.worksContainer .gif {
+    width: calc(84vw - 180px);
+    height: calc(100vh - 2vw);
+    flex-direction: row;
+}
+
+.gif .allGif img {
+    width: 30vw;
+    box-shadow: 0.5vw 0.5vw 3vw rgb(50,50,50);
+}
+.gif .allGif img:not(:last-child) {
+  margin-bottom: 2vw;
+}
+
+.gif .allGif {
+    width: calc((84vw - 180px)/2);
+    height: inherit;
+    flex-direction: column;
+}
+
+.gif .allGif h1, .gif .description .title h1 {
+    font-size: 30px;
+    margin-bottom: 2vw;
+}
+.gif .description {
+    width: calc((84vw - 180px)/2);
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 3vw;
+    padding-left: 2vw;
+}
+
+.worksNav .nav {
+    height: calc((100vh - 2vw)/3);
+    flex-direction: column;
+}
+
+.worksNav .nav i {
+    font-size: 40px
+}
+
+.worksNav .nav h4 {
+    margin-top: 15px;
+    font-size: 15px
+}
+
+#tradeNav {
+    background-color: rgb(86,197,204)
+}
+
+#propNav {
+    background-color: rgb(241,79,123)
+}
+
+#canvasNav {
+    background-color: rgb(247,170,28)
+}
+
+#trade {
+    width: 0;
+    background-color: rgb(86,197,204)
+}
+
+
+#prop {
+    width: 0;
+    background-color: rgb(241,79,123)
+}
+
+#canvas {
+    width: 0;
+    background-color: rgb(247,170,28)
+}
+
+
+.gif .description .list ul {
+    position: relative;
+    color: #fff;
+    font-size: 13px;
+  }
+  .gif .description .list ul:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    border-left: 2px dashed #fff;
+  }
+  .gif .description .list ul li {
+    position: relative;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 14px;
+    border-radius: 6px;
+    width: 400px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
+  }
+  .gif .description .list ul li:not(:first-child) {
+    margin-top: 50px;
+  }
+  .gif .description .list ul li > span {
+    width: 2px;
+    height: 100%;
+    background: #fff;
+    left: -30px;
+    top: 0;
+    position: absolute;
+  }
+  .gif .description .list ul li > span:before, .container ul li > span:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    background: #86b7e7;
+    left: -5px;
+    top: 0;
+  }
+  .gif .description .list ul li span:after {
+    top: 100%;
+  }
+  .gif .description .list ul li > div {
+    margin-left: 10px;
+  }
+  .gif .description .list ul li div .title, .container div .type {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .gif .description .list ul li div .info {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .gif .description .list ul li div .info a {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 20px;
+    color: blue;
+    text-decoration: none;
+  }
+  .gif .description .list ul li div > div {
+    margin-top: 5px;
+  }

@@ -1,0 +1,15 @@
+@media only screen and (max-width: 768px) {
+    body::-webkit-scrollbar,
+    body::-webkit-scrollbar-track, 
+    body::-webkit-scrollbar-thumb,
+    body::-webkit-scrollbar-button {
+        display:none;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+

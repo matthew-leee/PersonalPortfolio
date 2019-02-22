@@ -1,0 +1,91 @@
+@media only screen and (max-width: 768px) {
+  .about {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .content {
+    width: 98vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .intro {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3.5vw;
+    margin-bottom: 8vh;
+  }
+  #about2 h1,
+  #about2 h3 {
+    text-align: right;
+  }
+  .aboutW h3 {
+    margin-top: 1vh;
+    font-size: 3vw !important;
+    color: rgba(100, 100, 100, 0.7);
+  }
+  #about2 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .timeline {
+    width: 90vw;
+    height: 60vh;
+    position: relative;
+    background-color: rgba(50, 50, 50, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timeline:before {
+    left: calc(40%);
+    width: 0.5vw;
+  }
+  .entry .title {
+    width: 40%;
+    padding-right: 2vw;
+    text-align: right;
+    position: relative;
+  }
+  .entry .body {
+    width: 60%;
+    padding-left: 2vw;
+  }
+  .entry .title h3 {
+    font-size: 2.5vh;
+  }
+  .entry .title p {
+    margin-top: 0.5vh;
+    font-size: 1.8vh;
+  }
+  .entry .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 60%;
+    padding-left: 2vw;
+  }
+  .entry .body p {
+    line-height: 1.4em;
+    font-size: 1.8vh;
+  }
+  .entry .body ul {
+    color: #aaa;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 1.8vh;
+  }
+  .entry .body ul li {
+    margin-top: 0.5vh;
+  }
+}

@@ -1,0 +1,125 @@
+@media only screen and (max-width: 768px) {
+  .works {
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+    position: fixed;
+    z-index: -1;
+    opacity: 0;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .worksNav {
+    height: 10vh;
+    width: 98vw;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: stretch;
+  }
+  .worksNav .nav {
+    height: 10vh;
+    width: calc(100vw / 3);
+    flex-direction: column;
+  }
+  .worksNav .nav i {
+    font-size: 4vh;
+  }
+  .worksNav .nav h4 {
+    margin-top: 1vh;
+    font-size: 1.7vh;
+  }
+  .worksInstruction {
+    height: calc(90vh - 2vw);
+    width: 98vw;
+    position: absolute;
+    z-index: -1;
+    padding-right: 0;
+    padding-bottom: 10vh;
+    flex-direction: column;
+  }
+  .worksInstruction h1 {
+    font-size: 6vh;
+  }
+  .worksInstruction h4 {
+    margin-top: 2.5vw;
+    font-size: 3vh;
+  }
+  .worksContainer {
+    height: calc(80vh - 2vw);
+    width: 98vw;
+    position: absolute;
+    overflow: hidden;
+    bottom: 10.6vh;
+  }
+  .worksContainer .gif {
+    height: calc(80vh - 2vw);
+    width: 82vw;
+    flex-direction: column;
+    bottom: 10.6vh;
+  }
+  .gif .allGif {
+    width: 82vw;
+    height: 16vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .gif .allGif .content {
+    flex-direction: column;
+    margin: 2vw;
+  }
+  .gif .allGif .content h1 {
+    font-size: 4vw;
+  }
+  .gif .allGif .content img {
+    width: 35vw;
+  }
+  .gif .desktop {
+    display: none;
+  }
+  .gif .description {
+    width: 82vw;
+    height: 60vh;
+    padding-right: 0;
+    padding-left: 0;
+    flex-wrap: nowrap;
+  }
+  .gif .description .title h1 {
+      font-size: 3vh;
+      text-shadow: 0.2vw 0.2vw 2vw rgb(100,100,100);
+  }
+  .gif .description .list ul {
+      font-size: 2vh;
+  }
+  .gif .description .list ul:before, .gif .description .list ul li > span:before, .gif .description .list ul li > span {
+      display: none;
+  }
+  .gif .description .list ul li {
+    margin-left: 0;
+    padding: 1.5vw;
+    border-radius: 6px;
+    width: 70vw;
+  }
+  .gif .description .list ul li:not(:first-child) {
+    margin-top: 3vw;
+  }
+  .gif .description .list ul li > div {
+    margin-left: 1vw;
+  }
+  .gif .description .list ul li div .title, .container div .type {
+    font-size: 4vw;
+  }
+  .gif .description .list ul li div .info {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+  .gif .description .list ul li div .info a {
+    font-size: 4.2vw;
+    line-height: 4.2vw;
+  }
+}

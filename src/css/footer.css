@@ -1,0 +1,49 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    background-color: #3c455c;
+    grid-template-areas: "logo form";
+    font-family: 'Tajawal', sans-serif;
+}
+
+.footer .social{
+    grid-area: logo;
+    z-index: 9990;
+    flex-direction: row;
+    font-size: 10vw;
+    color: white;
+    height: inherit;
+}
+
+.footer .form{
+    grid-area: form;
+    z-index: 9990;
+    flex-direction: row;
+    color: white;
+    font-size: 20px;
+}
+.footer .form h4:not(:first-child) {
+    margin-top: 2vw;
+}
+
+.footer .form input {
+    width: 20vw;
+    height: 2vw;
+}
+
+.footer .form textarea {
+    width: 20vw;
+    height: 6vw;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    margin: 1vw;
+}
+
+p[class="error"]{
+    color: red;
+    
+}

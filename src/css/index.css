@@ -1,0 +1,43 @@
+/* total width */
+body::-webkit-scrollbar {
+    background-color:rgb(160,160,160);
+    width:16px
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+    background-color:rgb(160,160,160);
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.4);
+    border-radius:16px;
+    border:10px solid rgb(160,160,160);
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {display:none}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea, input { 
+    outline: none; 
+    background-color: rgba(130,130,130,0.4); 
+    -webkit-appearance: none;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+    box-shadow: 0.1vw 0.1vw 1vw rgb(50,50,50);
+    color: white;
+    padding: 0.5vw;
+}
+
+.mobile {
+    display: none;
+}
